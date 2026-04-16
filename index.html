@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Akash — Software Engineer portfolio." />
+  <title>Akash — Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=DM+Mono:wght@400&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page">
+    <header class="site-header" role="banner">
+      <div class="social-bar" aria-label="Social links">
+        <div class="container social-bar__inner">
+          <div class="social-bar__left">
+            <a class="social-handle" href="https://github.com/akashshawdev" target="_blank" rel="noreferrer">github.com/akashshawdev</a>
+          </div>
+          <div class="social-bar__center">
+            <span class="dot-sep">•</span>
+            <a class="social-handle" href="https://www.linkedin.com/in/akash-kumar-shaw-1aa0a1180/" target="_blank" rel="noreferrer">linkedin.com/in/akash-kumar-shaw-1aa0a1180</a>
+          </div>
+          <div class="social-bar__right">
+            <a class="social-email" href="mailto:akash.k.shaw6@gmail.com">akash.k.shaw6@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="top-nav" aria-label="Primary navigation">
+        <div class="container top-nav__inner">
+          <a class="brand" href="#hero" data-nav-brand data-nav-link>
+            <span class="brand__mark" aria-hidden="true">A</span>
+            <span class="brand__text">
+              <span class="brand__name">Akash</span>
+              <span class="brand__role">Software Engineer</span>
+            </span>
+          </a>
+
+          <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-mobile-toggle>
+            <span class="nav-toggle__bars" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav-panel" data-mobile-panel>
+            <ul class="nav-links" role="list">
+              <li class="nav-item">
+                <a class="nav-link" href="#hero" data-nav-link>Home</a>
+              </li>
+
+              <li class="nav-item nav-item--dropdown" data-dropdown>
+                <a class="nav-link nav-link--dropdown" href="#offerings" aria-haspopup="true" aria-expanded="false">
+                  Services <span class="caret" aria-hidden="true">▼</span>
+                </a>
+                <div class="dropdown-panel" role="menu" aria-label="Services menu">
+                  <div class="dropdown-panel__grid">
+                    <a class="dropdown-card" href="#offerings" data-nav-link>
+                      <span class="dropdown-card__title">Offerings</span>
+                      <span class="dropdown-card__desc">Web engineering & design systems</span>
+                    </a>
+                    <a class="dropdown-card" href="#experience" data-nav-link>
+                      <span class="dropdown-card__title">Experience</span>
+                      <span class="dropdown-card__desc">Timeline & roles</span>
+                    </a>
+                    <a class="dropdown-card" href="#case-study" data-nav-link>
+                      <span class="dropdown-card__title">Portfolio</span>
+                      <span class="dropdown-card__desc">Selected case studies</span>
+                    </a>
+                    <a class="dropdown-card dropdown-card--muted" href="#contact" data-nav-link>
+                      <span class="dropdown-card__title">Contact</span>
+                      <span class="dropdown-card__desc">Let’s build together</span>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials" data-nav-link>Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" data-nav-link>Contact</a>
+              </li>
+            </ul>
+            <div class="nav-panel__cta">
+              <button class="btn btn-ghost" type="button" data-action="scroll-contact">
+                Hire Me <span class="arrow" aria-hidden="true">↗</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <!-- Hero -->
+      <section id="hero" class="section hero" aria-label="Intro">
+        <div class="container hero__grid">
+          <div class="hero__copy" data-reveal>
+            <div class="hero__topline">
+              <span class="badge badge--hello" aria-label="Greeting badge">👋 it's me</span>
+              <span class="hero__count-pill" aria-hidden="true">Available for work</span>
+            </div>
+
+            <h1 class="hero__headline">
+              Hello! I'm Akash
+              <span class="hero__headline--muted">Software Engineer</span>
+            </h1>
+
+            <div class="hero__subtitle" aria-label="Tagline">
+              <span class="hero__rule" aria-hidden="true"></span>
+              <span class="hero__subtitle-text">Building clean web experiences that feel fast, accessible, and intentional.</span>
+              <span class="hero__rule" aria-hidden="true"></span>
+            </div>
+
+            <p class="hero__body">
+              I craft modern front-ends and design-friendly implementations. From design systems to performance tuning,
+              I focus on clarity, maintainability, and polish.
+            </p>
+
+            <ul class="checklist" aria-label="Highlights">
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Product-minded engineering
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Accessible UI & component quality
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Performance & usability improvements
+              </li>
+            </ul>
+
+            <div class="hero__actions">
+              <a class="btn btn-primary" href="#contact" data-scroll>
+                Let's Talk <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+              <a class="btn btn-outline" href="#" data-action="download-resume">
+                Download CV <span class="arrow" aria-hidden="true">↓</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero__art" data-reveal>
+            <div class="hero-photo">
+              <div class="hero-photo__bg"></div>
+              <div class="hero-photo__hello-circle" aria-hidden="true">Hello</div>
+              <img
+                class="hero-photo__img"
+                src="./assets/hero-photo-nobg.png"
+                alt="Akash portrait"
+                loading="eager"
+              />
+            </div>
+
+            <div class="corner-marks">
+              <span class="mark mark--1">—</span>
+              <span class="mark mark--2">—</span>
+              <span class="mark mark--3">—</span>
+              <span class="mark mark--4">×</span>
+              <span class="mark mark--5">+</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Offerings -->
+      <section id="offerings" class="section offerings" aria-label="Offerings">
+        <div class="container">
+          <header class="section-header section-header--left" data-reveal>
+            <div class="section-header__eyebrow">
+              <span class="section-header__symbol" aria-hidden="true">★</span>
+              Services
+            </div>
+            <h2 class="section-header__title">What I bring to the table</h2>
+            <p class="section-header__desc">A small set of focused offerings—built to ship clean interfaces and strong foundations.</p>
+          </header>
+
+          <div class="offerings__grid">
+            <article class="service-card service-card--inverted" data-reveal>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 18L3 12L7 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M17 6L21 12L17 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M14 4L10 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Web Engineering</h3>
+              <p class="service-card__body">Front-end architecture, component systems, responsive UI, and maintainable codebases.</p>
+              <a class="service-card__link" href="#case-study" data-scroll>
+                Explore work <span class="arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 7H17V17H7V7Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M7 12H17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M12 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Product Design Systems</h3>
+              <p class="service-card__body">Reusable components, tokens, and guidelines that scale without losing design fidelity.</p>
+              <a class="service-card__link" href="#experience" data-scroll>
+                See experience <span class="arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+
+            <article class="service-card" data-reveal>
+              <div class="service-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 18V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M8 18V10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M12 18V8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M16 18V12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M20 18V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h3 class="service-card__title">Performance & Accessibility</h3>
+              <p class="service-card__body">Speed improvements, semantic markup, keyboard support, and practical a11y checks.</p>
+              <a class="service-card__link" href="#contact" data-scroll>
+                Talk about a project <span class="arrow" aria-hidden="true">→</span>
+              </a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="section experience" aria-label="Experience">
+        <div class="container">
+          <header class="section-header section-header--left" data-reveal>
+            <div class="section-header__eyebrow">
+              <span class="section-header__symbol" aria-hidden="true">★</span>
+              Experience
+            </div>
+            <h2 class="section-header__title">A focused career timeline</h2>
+            <p class="section-header__desc">Click a row to expand details. Built for fast scanning and clear context.</p>
+          </header>
+
+          <div class="accordion" role="list">
+            <div class="acc-row" data-acc>
+              <button class="acc-row__btn" type="button" aria-expanded="true">
+                <span class="acc-row__index">01</span>
+                <span class="acc-row__main">
+                  <span class="acc-row__title">Software Engineer</span>
+                  <span class="acc-row__company">Product team</span>
+                </span>
+                <span class="acc-row__meta">
+                  <span class="pill pill--outline">2024 — Present</span>
+                </span>
+              </button>
+              <div class="acc-row__panel" role="region">
+                <div class="acc-row__content">
+                  Building UI foundations: design tokens, component patterns, and responsive layouts. Partnering closely with design and
+                  improving performance and accessibility across key flows.
+                </div>
+              </div>
+            </div>
+
+            <div class="acc-row" data-acc>
+              <button class="acc-row__btn" type="button" aria-expanded="false">
+                <span class="acc-row__index">02</span>
+                <span class="acc-row__main">
+                  <span class="acc-row__title">Front-End Developer</span>
+                  <span class="acc-row__company">Platform engineering</span>
+                </span>
+                <span class="acc-row__meta">
+                  <span class="pill pill--outline">2022 — 2024</span>
+                </span>
+              </button>
+              <div class="acc-row__panel" role="region" hidden>
+                <div class="acc-row__content">
+                  Implemented feature UI in collaboration with product, refined component interactions, and contributed to developer tooling.
+                  Focused on maintainable patterns and clear, reusable UI primitives.
+                </div>
+              </div>
+            </div>
+
+            <div class="acc-row" data-acc>
+              <button class="acc-row__btn" type="button" aria-expanded="false">
+                <span class="acc-row__index">03</span>
+                <span class="acc-row__main">
+                  <span class="acc-row__title">Software Intern</span>
+                  <span class="acc-row__company">Web experiences</span>
+                </span>
+                <span class="acc-row__meta">
+                  <span class="pill pill--outline">2021 — 2022</span>
+                </span>
+              </button>
+              <div class="acc-row__panel" role="region" hidden>
+                <div class="acc-row__content">
+                  Built landing pages and interactive prototypes, learned production workflows, and helped improve UI polish through careful
+                  testing and feedback loops.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Case Study / Projects -->
+      <section id="case-study" class="section case-study" aria-label="Projects">
+        <div class="container">
+          <header class="section-header section-header--center" data-reveal>
+            <div class="section-header__eyebrow section-header__eyebrow--center">
+              <span class="section-header__symbol" aria-hidden="true">★</span>
+              Selected Work
+            </div>
+            <h2 class="section-header__title">Projects with clear outcomes</h2>
+            <p class="section-header__desc">Filter by focus area, then skim case studies for structure and results.</p>
+          </header>
+
+          <div class="chip-row" data-chip-filter aria-label="Project filters">
+            <button class="chip is-selected" type="button" data-filter="all">All</button>
+            <button class="chip" type="button" data-filter="ai">AI</button>
+            <button class="chip" type="button" data-filter="ecommerce">E-commerce</button>
+          </div>
+
+          <div class="case-grid">
+            <article class="case-card" data-category="ai" data-reveal>
+              <div class="case-card__media" aria-hidden="true">
+                <div class="media-placeholder media-placeholder--a"></div>
+              </div>
+              <div class="case-card__body" data-flip="false">
+                <div class="case-card__meta">
+                  <span class="badge badge--dark">AI</span>
+                  <span class="case-card__date">2026</span>
+                </div>
+                <h3 class="case-card__title">Hybrid Recommendation System with A/B Testing</h3>
+                <p class="case-card__desc">Built a hybrid recommendation engine (SVD + content-based + segmentation) improving CTR and conversion through A/B testing.</p>
+
+                <ul class="case-bullets" aria-label="Key points">
+                  <li>Hybrid model (SVD + content-based + re-ranking)</li>
+                  <li>RFM-based customer segmentation (K-Means)</li>
+                  <li>A/B testing (control vs treatment)</li>
+                  <li>Business impact: CTR ↑, conversion ↑, revenue uplift</li>
+                  <li>Dashboard (Streamlit)</li>
+                </ul>
+
+                <div class="case-card__tags" aria-label="Project tags">
+                  <span class="tag">SVD + re-ranking</span>
+                  <span class="tag">RFM segmentation</span>
+                  <span class="tag">Experimentation</span>
+                  <span class="tag">Streamlit</span>
+                </div>
+                <div class="case-tech">Tech stack: Python, DuckDB, Scikit-learn, Streamlit, Plotly</div>
+                <div class="case-card__cta">
+                  <a class="link-arrow" href="#contact" data-scroll>
+                    See Details ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="case-card" data-category="ecommerce" data-reveal>
+              <div class="case-card__media" aria-hidden="true">
+                <div class="media-placeholder media-placeholder--b"></div>
+              </div>
+              <div class="case-card__body">
+                <div class="case-card__meta">
+                  <span class="badge badge--dark">E-commerce</span>
+                  <span class="case-card__date">2025</span>
+                </div>
+                <h3 class="case-card__title">Full-Stack E-Commerce Platform with User & Product Management</h3>
+                <p class="case-card__desc">Developed a full-stack e-commerce application with authentication, product catalog, and cart system.</p>
+
+                <ul class="case-bullets" aria-label="Key points">
+                  <li>User authentication (login/signup)</li>
+                  <li>Product listing & filtering</li>
+                  <li>Cart & checkout logic</li>
+                  <li>Backend APIs (REST)</li>
+                  <li>Database integration</li>
+                </ul>
+
+                <div class="case-card__tags" aria-label="Project tags">
+                  <span class="tag">Auth</span>
+                  <span class="tag">Product catalog</span>
+                  <span class="tag">Cart + checkout</span>
+                  <span class="tag">REST APIs</span>
+                </div>
+                <div class="case-tech">Tech stack: React / Next.js, Typescript, Node.js, Express, PostgreSQL</div>
+                <div class="case-card__cta">
+                  <a class="link-arrow" href="#contact" data-scroll>
+                    See Details ↗
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section id="testimonials" class="section testimonial" aria-label="Testimonials">
+        <div class="container testimonial__grid">
+          <div class="testimonial__quote" data-reveal>
+            <div class="testimonial__opening" aria-hidden="true">“</div>
+            <blockquote class="testimonial__text">
+              Akash brings a rare mix of engineering discipline and design sensitivity. The work feels intentional—clean structure,
+              thoughtful interactions, and accessible details that don’t get in the way.
+            </blockquote>
+            <div class="testimonial__attribution">
+              <span class="testimonial__name">Team Lead</span>
+              <span class="testimonial__role">Product & Design</span>
+              <span class="testimonial__underline" aria-hidden="true"></span>
+            </div>
+          </div>
+
+          <div class="testimonial__portrait" data-reveal aria-hidden="true">
+            <div class="portrait-clip">
+              <div class="portrait-clip__bg"></div>
+              <div class="portrait-clip__mark">★</div>
+              <div class="portrait-clip__mark portrait-clip__mark--2">×</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section id="stats" class="section stats" aria-label="Stats">
+        <div class="container">
+          <div class="stats__grid">
+            <div class="stat" data-reveal>
+              <div class="stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 19V5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M8 19V11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M12 19V9" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M16 19V13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M20 19V6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="stat__number">3+</div>
+              <div class="stat__label">Years building UI</div>
+            </div>
+
+            <div class="stat" data-reveal>
+              <div class="stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 7H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <path d="M8 7V5H16V7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M6 7V19H18V7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="stat__number">20+</div>
+              <div class="stat__label">Shipped features</div>
+            </div>
+
+            <div class="stat" data-reveal>
+              <div class="stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 2L15 8L22 9L17 14L18 22L12 19L6 22L7 14L2 9L9 8L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="stat__number">A11y</div>
+              <div class="stat__label">Keyboard-friendly UX</div>
+            </div>
+
+            <div class="stat" data-reveal>
+              <div class="stat__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 20C16.418 20 20 16.418 20 12C20 7.582 16.418 4 12 4C7.582 4 4 7.582 4 12C4 16.418 7.582 20 12 20Z" stroke="currentColor" stroke-width="2"/>
+                  <path d="M12 8V12L15 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="stat__number">Fast</div>
+              <div class="stat__label">Performance tuning</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section contact" aria-label="Contact">
+        <div class="container">
+          <div class="contact__head" data-reveal>
+            <div class="section-header section-header--center">
+              <div class="section-header__eyebrow section-header__eyebrow--center">
+                <span class="section-header__symbol" aria-hidden="true">★</span>
+                Contact
+              </div>
+              <h2 class="section-header__title">Say hi and tell me about your idea</h2>
+              <p class="section-header__desc">
+                A quick note is enough. I’ll reply with next steps and an estimate timeline.
+              </p>
+            </div>
+          </div>
+
+          <form class="contact-form" data-reveal>
+            <div class="contact-form__grid">
+              <div class="field">
+                <label class="field__label" for="name">Name</label>
+                <input class="field__input" id="name" name="name" autocomplete="name" required placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label class="field__label" for="email">Email</label>
+                <input class="field__input" id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" />
+              </div>
+
+              <div class="field field--full">
+                <label class="field__label" for="company">Company</label>
+                <input class="field__input" id="company" name="company" autocomplete="organization" placeholder="Optional (or N/A)" />
+              </div>
+
+              <div class="field field--full">
+                <label class="field__label" for="message">What are we building?</label>
+                <textarea class="field__input field__textarea" id="message" name="message" rows="5" required placeholder="Goals, constraints, timeline..."></textarea>
+              </div>
+
+              <div class="field field--full">
+                <div class="field__label">Focus areas</div>
+                <div class="chip-row chip-row--form" data-chip-contact aria-label="Select focus areas">
+                  <button type="button" class="chip" data-interest="web">Web UI</button>
+                  <button type="button" class="chip" data-interest="systems">Design Systems</button>
+                  <button type="button" class="chip" data-interest="performance">Performance</button>
+                  <button type="button" class="chip" data-interest="accessibility">Accessibility</button>
+                </div>
+              </div>
+
+              <div class="contact-form__actions">
+                <button class="btn btn-primary btn-pill" type="submit" data-submit>
+                  Send message <span class="arrow" aria-hidden="true">↗</span>
+                </button>
+                <div class="helper-text" data-helper>
+                  Typical response time: 24–48 hours.
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <a class="footer-link" href="https://github.com/akashshawdev" target="_blank" rel="noreferrer" aria-label="GitHub link">github.com/akashshawdev</a>
+          <a class="footer-link" href="https://www.linkedin.com/in/akash-kumar-shaw-1aa0a1180/" target="_blank" rel="noreferrer" aria-label="LinkedIn link">linkedin.com/in/akash-kumar-shaw-1aa0a1180</a>
+        </div>
+        <div class="footer__right">
+          <span>© <span id="year"></span> Akash</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <script src="./app.js"></script>
+</body>
+</html>
+
